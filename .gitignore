@@ -1,4 +1,6 @@
 .env
+.env.*
+!.env.example
 .venv/
 __pycache__/
 *.py[cod]
@@ -8,6 +10,7 @@ __pycache__/
 .coverage
 htmlcov/
 backend/.venv/
+.media-venv/
 backend/dist/
 backend/*.egg-info/
 frontend/node_modules/
@@ -16,6 +19,14 @@ frontend/coverage/
 .pnpm-store/
 .vite/
 uploads/
+private/
+student_uploads/
+data/private/
+postgres_data/
+.postgres/
+.cache/
+.huggingface/
+model-cache/
 data/raw/*
 !data/raw/.gitkeep
 data/interim/*
@@ -27,5 +38,7 @@ artifacts/models/*
 !artifacts/models/*/
 !artifacts/models/*/MODEL_CARD.md
 *.log
+*.tmp
+docs/media/devpost/*-check.png
 .DS_Store
 Thumbs.db
