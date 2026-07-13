@@ -1,0 +1,3 @@
+source_id,owner,url,access_date,license_or_terms,intended_uses,redistribution_training_decision,reviewer,review_status
+classpath-m0-synthetic-demo,LearnStep project authors,not_applicable,2026-07-13,project-original synthetic fixture,local development and deterministic tests,redistribution permitted; excluded from model training unless separately reviewed,unreviewed,synthetic_demo
+learnstep-original-synthetic-v1,LearnStep project authors,not_applicable,2026-07-13,project-original synthetic fixture,"PDF extraction, classifier baseline, retrieval, assessment, and human-review queue",redistribution permitted; no classifier promotion without human review,unreviewed,synthetic_demo

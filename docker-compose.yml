@@ -1,0 +1,68 @@
+name: learnstep
+
+services:
+  db:
+    image: pgvector/pgvector:0.8.0-pg16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-classpath}
+      POSTGRES_USER: ${POSTGRES_USER:-classpath}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-classpath_dev}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+
+  backend:
+    build:
+      context: ./backend
+      target: runtime
+    environment:
+      APP_NAME: ${APP_NAME:-LearnStep}
+      APP_ENV: ${APP_ENV:-development}
+      APP_DEBUG: ${APP_DEBUG:-false}
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://classpath:classpath_dev@db:5432/classpath}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+      EMBEDDING_DIMENSION: ${EMBEDDING_DIMENSION:-384}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:5173"]}
+      DEMO_TOKEN_SECRET: ${DEMO_TOKEN_SECRET:-local-demo-secret-change-before-deployment}
+      DEMO_TOKEN_MINUTES: ${DEMO_TOKEN_MINUTES:-60}
+      PRIVATE_DATA_ROOT: ${PRIVATE_DATA_ROOT:-/app/private-data}
+      UPLOAD_MAX_BYTES: ${UPLOAD_MAX_BYTES:-5000000}
+      UPLOAD_MAX_PAGES: ${UPLOAD_MAX_PAGES:-10}
+      UPLOAD_MIN_TEXT_CHARS: ${UPLOAD_MIN_TEXT_CHARS:-40}
+      DEMO_UPLOAD_TTL_MINUTES: ${DEMO_UPLOAD_TTL_MINUTES:-60}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - demo_uploads:/app/private-data
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/live', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+  frontend:
+    build:
+      context: ./frontend
+      target: runtime
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8000}
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  demo_uploads:

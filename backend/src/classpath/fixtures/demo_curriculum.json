@@ -1,0 +1,49 @@
+{
+  "dataset_id": "classpath-m0-synthetic-demo",
+  "taxonomy_version": "synthetic-demo-v1",
+  "review_status": "synthetic_demo",
+  "notice": "Original synthetic development placeholders. Not reviewed curriculum and not an official CBSE/NCERT mapping.",
+  "records": [
+    {
+      "stable_key": "synthetic-c5-math-pattern-garden",
+      "class_level": 5,
+      "subject": "mathematics",
+      "name": "Pattern Garden",
+      "description": "A fictional tile-pattern topic used only to test development navigation and metadata filters.",
+      "taxonomy_version": "synthetic-demo-v1",
+      "review_status": "synthetic_demo",
+      "source_type": "synthetic_demo"
+    },
+    {
+      "stable_key": "synthetic-c6-science-shadow-clock",
+      "class_level": 6,
+      "subject": "science",
+      "name": "Shadow Clock",
+      "description": "A fictional observation topic used only to test development navigation and metadata filters.",
+      "taxonomy_version": "synthetic-demo-v1",
+      "review_status": "synthetic_demo",
+      "source_type": "synthetic_demo"
+    },
+    {
+      "stable_key": "synthetic-c7-math-river-ratios",
+      "class_level": 7,
+      "subject": "mathematics",
+      "name": "River Ratios",
+      "description": "A fictional comparison topic used only to test development navigation and metadata filters.",
+      "taxonomy_version": "synthetic-demo-v1",
+      "review_status": "synthetic_demo",
+      "source_type": "synthetic_demo"
+    },
+    {
+      "stable_key": "synthetic-c8-science-thermal-trail",
+      "class_level": 8,
+      "subject": "science",
+      "name": "Thermal Trail",
+      "description": "A fictional temperature-observation topic used only to test development navigation and metadata filters.",
+      "taxonomy_version": "synthetic-demo-v1",
+      "review_status": "synthetic_demo",
+      "source_type": "synthetic_demo"
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "scope": "200 programmatically labeled synthetic evaluator cases",
+  "overall_accuracy": 1.0,
+  "multiple_choice_accuracy": 1.0,
+  "numeric_accuracy": 1.0,
+  "cases": {
+    "multiple_choice": 100,
+    "numeric": 100
+  },
+  "failure_count": 0,
+  "failures": [],
+  "limitations": [
+    "These cases test deterministic parsing rules, not educational validity.",
+    "Short-text and explanation rubric evaluation are not implemented in this demo slice."
+  ]
+}

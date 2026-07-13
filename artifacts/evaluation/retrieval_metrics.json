@@ -1,0 +1,20 @@
+{
+  "scope": "120 synthetic queries over real PostgreSQL 16/pgvector with two isolated users",
+  "embedding": "deterministic synthetic hash baseline; not MiniLM",
+  "recall_at_1": 1.0,
+  "recall_at_5": 1.0,
+  "mrr_at_10": 1.0,
+  "no_result_rate": 0.0,
+  "wrong_class_count": 0,
+  "wrong_concept_count": 0,
+  "cross_user_result_count": 0,
+  "latency_ms": {
+    "median": 2.393099999608239,
+    "p95": 3.8494999998874846
+  },
+  "limitations": [
+    "Relevant chunks and queries are generator-controlled synthetic fixtures.",
+    "Strict metadata filters make this primarily an isolation/filtering baseline.",
+    "Semantic retrieval quality on varied school language is not established."
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "package_key": "class5-math-fractions",
+    "title": "Fractions as equal parts",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_key": "fractions",
+    "review_status": "synthetic_demo_not_educationally_reviewed",
+    "source": {"source_id": "synthetic-chapter-fractions-v1", "label": "Original synthetic portfolio-demo chapter", "page": 1},
+    "confidence": "high_for_template_match_only",
+    "lesson": {
+      "goal": "Recognise a fraction as equal parts of one whole.",
+      "prerequisites": "Recall that equal means the same size.",
+      "explanation": "A fraction names equal parts of a whole. The denominator counts all equal parts; the numerator counts the selected parts.",
+      "example": "If a paper strip is divided into 4 equal parts and 1 part is shaded, the shaded fraction is 1/4.",
+      "recap": "Count all equal parts for the denominator and selected parts for the numerator."
+    },
+    "question": {
+      "question_key": "fractions-mcq-1",
+      "text": "A shape has 4 equal parts and 3 are shaded. Which fraction is shaded?",
+      "answer_type": "multiple_choice",
+      "options": ["1/4", "3/4", "4/3", "3/1"],
+      "accepted_answer": "3/4",
+      "accepted_unit": null,
+      "tolerance": "0",
+      "hint_1": "The denominator is the number of equal parts in all.",
+      "hint_2": "Use shaded parts over all equal parts: 3 over 4.",
+      "explanation": "There are 3 selected parts out of 4 equal parts, so the fraction is 3/4.",
+      "cognitive_level": "understand",
+      "difficulty": "foundational",
+      "rubric_version": "demo-rubric-v1"
+    }
+  },
+  {
+    "package_key": "class5-math-perimeter",
+    "title": "Perimeter of a rectangle",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_key": "perimeter",
+    "review_status": "synthetic_demo_not_educationally_reviewed",
+    "source": {"source_id": "synthetic-chapter-perimeter-v1", "label": "Original synthetic portfolio-demo chapter", "page": 1},
+    "confidence": "high_for_template_match_only",
+    "lesson": {
+      "goal": "Calculate the boundary length of a rectangle.",
+      "prerequisites": "Add whole-number lengths with the same unit.",
+      "explanation": "Perimeter is the total distance around a shape. A rectangle has two equal lengths and two equal widths.",
+      "example": "For length 5 cm and width 3 cm, perimeter is 5 + 3 + 5 + 3 = 16 cm.",
+      "recap": "Add all four sides and keep the length unit."
+    },
+    "question": {
+      "question_key": "perimeter-numeric-1",
+      "text": "What is the perimeter of a rectangle with length 6 cm and width 2 cm?",
+      "answer_type": "numeric",
+      "options": [],
+      "accepted_answer": "16",
+      "accepted_unit": "cm",
+      "tolerance": "0",
+      "hint_1": "Add the lengths of all four sides.",
+      "hint_2": "Calculate 6 + 2 + 6 + 2 and include cm.",
+      "explanation": "The perimeter is 6 + 2 + 6 + 2 = 16 cm.",
+      "cognitive_level": "apply",
+      "difficulty": "foundational",
+      "rubric_version": "demo-rubric-v1"
+    }
+  },
+  {
+    "package_key": "class6-science-plants",
+    "title": "Functions of plant parts",
+    "class_level": 6,
+    "subject": "science",
+    "concept_key": "plant_parts",
+    "review_status": "synthetic_demo_not_educationally_reviewed",
+    "source": {"source_id": "synthetic-chapter-plants-v1", "label": "Original synthetic portfolio-demo chapter", "page": 1},
+    "confidence": "high_for_template_match_only",
+    "lesson": {
+      "goal": "Connect a basic plant part with a stated function.",
+      "prerequisites": "Identify roots, stems and leaves by name.",
+      "explanation": "In this synthetic example, roots anchor the plant and take in water from the soil; the stem supports parts above the ground.",
+      "example": "A wilted plant may not receive enough water through its roots.",
+      "recap": "Plant parts have different functions that work together."
+    },
+    "question": {
+      "question_key": "plants-mcq-1",
+      "text": "Which plant part is described as taking in water from soil in this lesson?",
+      "answer_type": "multiple_choice",
+      "options": ["flower", "root", "fruit", "seed"],
+      "accepted_answer": "root",
+      "accepted_unit": null,
+      "tolerance": "0",
+      "hint_1": "Think about the plant part usually below the soil.",
+      "hint_2": "The answer begins with r and also anchors the plant.",
+      "explanation": "The reviewed synthetic lesson statement identifies the root.",
+      "cognitive_level": "remember",
+      "difficulty": "foundational",
+      "rubric_version": "demo-rubric-v1"
+    }
+  }
+]

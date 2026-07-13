@@ -1,0 +1,87 @@
+name: Deploy controlled Azure demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      git_ref:
+        description: Tested commit or tag to deploy
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: learnstep-portfolio-demo
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build, migrate, and deploy
+    runs-on: ubuntu-latest
+    environment: portfolio-demo
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.git_ref }}
+
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Sign in to the private registry
+        run: az acr login --name "${{ vars.AZURE_CONTAINER_REGISTRY_NAME }}"
+
+      - name: Build and push immutable images
+        env:
+          REGISTRY: ${{ vars.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }}
+          SHA: ${{ github.sha }}
+          API_URL: ${{ vars.PUBLIC_API_URL }}
+        run: |
+          docker build -t "$REGISTRY/learnstep-backend:$SHA" backend
+          docker build --build-arg VITE_API_BASE_URL="$API_URL" -t "$REGISTRY/learnstep-frontend:$SHA" frontend
+          docker push "$REGISTRY/learnstep-backend:$SHA"
+          docker push "$REGISTRY/learnstep-frontend:$SHA"
+
+      - name: Run the preconfigured Alembic migration job
+        id: migration
+        env:
+          RESOURCE_GROUP: ${{ vars.AZURE_RESOURCE_GROUP }}
+          MIGRATION_JOB: ${{ vars.AZURE_MIGRATION_JOB }}
+        run: |
+          execution=$(az containerapp job start --resource-group "$RESOURCE_GROUP" --name "$MIGRATION_JOB" --query name -o tsv)
+          echo "execution=$execution" >> "$GITHUB_OUTPUT"
+          for attempt in $(seq 1 60); do
+            status=$(az containerapp job execution show --resource-group "$RESOURCE_GROUP" --job-name "$MIGRATION_JOB" --name "$execution" --query properties.status -o tsv)
+            if [ "$status" = "Succeeded" ]; then exit 0; fi
+            if [ "$status" = "Failed" ]; then exit 1; fi
+            sleep 10
+          done
+          echo "Migration job did not complete within 10 minutes" >&2
+          exit 1
+
+      - name: Update backend revision
+        env:
+          REGISTRY: ${{ vars.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }}
+          SHA: ${{ github.sha }}
+        run: >-
+          az containerapp update
+          --resource-group "${{ vars.AZURE_RESOURCE_GROUP }}"
+          --name "${{ vars.AZURE_BACKEND_APP }}"
+          --image "$REGISTRY/learnstep-backend:$SHA"
+
+      - name: Update frontend revision
+        env:
+          REGISTRY: ${{ vars.AZURE_CONTAINER_REGISTRY_LOGIN_SERVER }}
+          SHA: ${{ github.sha }}
+        run: >-
+          az containerapp update
+          --resource-group "${{ vars.AZURE_RESOURCE_GROUP }}"
+          --name "${{ vars.AZURE_FRONTEND_APP }}"
+          --image "$REGISTRY/learnstep-frontend:$SHA"
+
+      - name: Verify public readiness
+        run: curl --fail --retry 12 --retry-delay 10 "${{ vars.PUBLIC_API_URL }}/health/ready"

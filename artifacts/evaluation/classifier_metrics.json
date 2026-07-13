@@ -1,0 +1,303 @@
+{
+  "scope": "384 original unreviewed synthetic questions",
+  "dataset_sha256": "8a857298e82209d32c2415c57b4364247f4822ae890e9ada1c5e44c58da48814",
+  "seed": 20260713,
+  "split_counts": {
+    "train": 264,
+    "validation": 56,
+    "test": 64
+  },
+  "group_leakage_count": 0,
+  "targets": {
+    "cognitive_level": {
+      "majority": {
+        "classification_report": {
+          "analyse": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 16.0
+          },
+          "apply": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 16.0
+          },
+          "remember": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 24.0
+          },
+          "understand": {
+            "precision": 0.125,
+            "recall": 1.0,
+            "f1-score": 0.2222222222222222,
+            "support": 8.0
+          },
+          "accuracy": 0.125,
+          "macro avg": {
+            "precision": 0.03125,
+            "recall": 0.25,
+            "f1-score": 0.05555555555555555,
+            "support": 64.0
+          },
+          "weighted avg": {
+            "precision": 0.015625,
+            "recall": 0.125,
+            "f1-score": 0.027777777777777776,
+            "support": 64.0
+          }
+        },
+        "labels": [
+          "analyse",
+          "apply",
+          "remember",
+          "understand"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            0,
+            24
+          ],
+          [
+            0,
+            0,
+            0,
+            8
+          ]
+        ],
+        "cpu_single_item_latency_ms": {
+          "median": 0.014299999747890979,
+          "p95": 0.02049999966402538
+        }
+      },
+      "tfidf_logistic_regression": {
+        "classification_report": {
+          "analyse": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 16.0
+          },
+          "apply": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 16.0
+          },
+          "remember": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+          },
+          "understand": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 64.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 64.0
+          }
+        },
+        "labels": [
+          "analyse",
+          "apply",
+          "remember",
+          "understand"
+        ],
+        "confusion_matrix": [
+          [
+            16,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            16,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            24,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            8
+          ]
+        ],
+        "cpu_single_item_latency_ms": {
+          "median": 1.3290000001688895,
+          "p95": 1.7764999993232777
+        }
+      }
+    },
+    "difficulty": {
+      "majority": {
+        "classification_report": {
+          "challenge": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 8.0
+          },
+          "foundational": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 32.0
+          },
+          "intermediate": {
+            "precision": 0.375,
+            "recall": 1.0,
+            "f1-score": 0.5454545454545454,
+            "support": 24.0
+          },
+          "accuracy": 0.375,
+          "macro avg": {
+            "precision": 0.125,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.1818181818181818,
+            "support": 64.0
+          },
+          "weighted avg": {
+            "precision": 0.140625,
+            "recall": 0.375,
+            "f1-score": 0.20454545454545453,
+            "support": 64.0
+          }
+        },
+        "labels": [
+          "challenge",
+          "foundational",
+          "intermediate"
+        ],
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            32
+          ],
+          [
+            0,
+            0,
+            24
+          ]
+        ],
+        "cpu_single_item_latency_ms": {
+          "median": 0.013199999557400588,
+          "p95": 0.014799999917158857
+        }
+      },
+      "tfidf_logistic_regression": {
+        "classification_report": {
+          "challenge": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 8.0
+          },
+          "foundational": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 32.0
+          },
+          "intermediate": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 24.0
+          },
+          "accuracy": 1.0,
+          "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 64.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 64.0
+          }
+        },
+        "labels": [
+          "challenge",
+          "foundational",
+          "intermediate"
+        ],
+        "confusion_matrix": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            0,
+            32,
+            0
+          ],
+          [
+            0,
+            0,
+            24
+          ]
+        ],
+        "cpu_single_item_latency_ms": {
+          "median": 1.2580499997056904,
+          "p95": 2.244200000859564
+        }
+      }
+    }
+  },
+  "distilbert": {
+    "status": "not_run",
+    "reason": "The required human-reviewed labels, frozen grouped test set, and error review do not exist. Downloading/fine-tuning DistilBERT now would produce misleading portfolio evidence."
+  },
+  "promotion_decision": "none; synthetic-only baselines are not eligible for promotion",
+  "limitations": [
+    "All questions and labels are generator-controlled and unreviewed.",
+    "Metrics measure template generalization only, not real educational question quality.",
+    "Original-only versus synthetic-inclusive comparison is unavailable because no approved original external dataset is present."
+  ]
+}

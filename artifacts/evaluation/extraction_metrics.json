@@ -1,0 +1,27 @@
+{
+  "scope": "60 original synthetic PDFs across 8 concepts and 3 generated layout families",
+  "review_status": "unreviewed_synthetic",
+  "documents_total": 60,
+  "documents_extracted": 60,
+  "document_failure_rate": 0.0,
+  "content_type_micro": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "concept_micro": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "latency_ms": {
+    "median": 2.1182499999667925,
+    "p95": 3.7208000003374764
+  },
+  "failure_count": 0,
+  "limitations": [
+    "The corpus is generator-controlled synthetic data, not real school material.",
+    "No OCR, handwriting, tables, complex equations, or adversarial layouts are represented.",
+    "These results do not establish curriculum correctness or real-document generalization."
+  ]
+}

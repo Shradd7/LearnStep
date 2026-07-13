@@ -1,0 +1,1322 @@
+[
+  {
+    "document_id": "synthetic-01",
+    "filename": "synthetic_chapter_01_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-02",
+    "filename": "synthetic_chapter_02_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-03",
+    "filename": "synthetic_chapter_03_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-04",
+    "filename": "synthetic_chapter_04_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-05",
+    "filename": "synthetic_chapter_05_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-06",
+    "filename": "synthetic_chapter_06_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-07",
+    "filename": "synthetic_chapter_07_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-08",
+    "filename": "synthetic_chapter_08_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-09",
+    "filename": "synthetic_chapter_09_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-10",
+    "filename": "synthetic_chapter_10_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-11",
+    "filename": "synthetic_chapter_11_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-12",
+    "filename": "synthetic_chapter_12_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-13",
+    "filename": "synthetic_chapter_13_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-14",
+    "filename": "synthetic_chapter_14_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-15",
+    "filename": "synthetic_chapter_15_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-16",
+    "filename": "synthetic_chapter_16_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-17",
+    "filename": "synthetic_chapter_17_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-18",
+    "filename": "synthetic_chapter_18_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-19",
+    "filename": "synthetic_chapter_19_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-20",
+    "filename": "synthetic_chapter_20_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-21",
+    "filename": "synthetic_chapter_21_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-22",
+    "filename": "synthetic_chapter_22_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-23",
+    "filename": "synthetic_chapter_23_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-24",
+    "filename": "synthetic_chapter_24_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-25",
+    "filename": "synthetic_chapter_25_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-26",
+    "filename": "synthetic_chapter_26_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-27",
+    "filename": "synthetic_chapter_27_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-28",
+    "filename": "synthetic_chapter_28_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-29",
+    "filename": "synthetic_chapter_29_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-30",
+    "filename": "synthetic_chapter_30_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-31",
+    "filename": "synthetic_chapter_31_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-32",
+    "filename": "synthetic_chapter_32_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-33",
+    "filename": "synthetic_chapter_33_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-34",
+    "filename": "synthetic_chapter_34_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-35",
+    "filename": "synthetic_chapter_35_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-36",
+    "filename": "synthetic_chapter_36_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-37",
+    "filename": "synthetic_chapter_37_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-38",
+    "filename": "synthetic_chapter_38_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-39",
+    "filename": "synthetic_chapter_39_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-40",
+    "filename": "synthetic_chapter_40_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-41",
+    "filename": "synthetic_chapter_41_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-42",
+    "filename": "synthetic_chapter_42_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-43",
+    "filename": "synthetic_chapter_43_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-44",
+    "filename": "synthetic_chapter_44_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-45",
+    "filename": "synthetic_chapter_45_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-46",
+    "filename": "synthetic_chapter_46_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-47",
+    "filename": "synthetic_chapter_47_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-48",
+    "filename": "synthetic_chapter_48_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-49",
+    "filename": "synthetic_chapter_49_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-50",
+    "filename": "synthetic_chapter_50_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-51",
+    "filename": "synthetic_chapter_51_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-52",
+    "filename": "synthetic_chapter_52_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-53",
+    "filename": "synthetic_chapter_53_plant_parts.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "plant_parts"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-54",
+    "filename": "synthetic_chapter_54_force_motion.pdf",
+    "class_level": 7,
+    "subject": "science",
+    "concept_keys": [
+      "force_motion"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-55",
+    "filename": "synthetic_chapter_55_light_shadows.pdf",
+    "class_level": 6,
+    "subject": "science",
+    "concept_keys": [
+      "light_shadows"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-56",
+    "filename": "synthetic_chapter_56_heat_transfer.pdf",
+    "class_level": 8,
+    "subject": "science",
+    "concept_keys": [
+      "heat_transfer"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "fact",
+      "explanation",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-57",
+    "filename": "synthetic_chapter_57_fractions.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "fractions"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-58",
+    "filename": "synthetic_chapter_58_perimeter.pdf",
+    "class_level": 5,
+    "subject": "mathematics",
+    "concept_keys": [
+      "perimeter"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-1",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-59",
+    "filename": "synthetic_chapter_59_decimals.pdf",
+    "class_level": 6,
+    "subject": "mathematics",
+    "concept_keys": [
+      "decimals"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-2",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  },
+  {
+    "document_id": "synthetic-60",
+    "filename": "synthetic_chapter_60_integers.pdf",
+    "class_level": 7,
+    "subject": "mathematics",
+    "concept_keys": [
+      "integers"
+    ],
+    "content_types": [
+      "heading",
+      "definition",
+      "explanation",
+      "formula",
+      "worked_example",
+      "activity",
+      "question",
+      "answer_solution"
+    ],
+    "layout_family": "synthetic-layout-3",
+    "source_id": "learnstep-original-synthetic-v1",
+    "review_status": "unreviewed_synthetic"
+  }
+]
