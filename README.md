@@ -59,8 +59,6 @@ All screenshots below were captured from the running synthetic demo at 1440×960
 | ![Staged hint](docs/media/devpost/05-staged-hint.png) | Hint-first interaction before answer reveal |
 | ![Deterministic feedback and progress](docs/media/devpost/06-feedback-and-progress.png) | Transparent answer feedback and non-ranking learning evidence |
 
-The silent, captioned 63-second demo is available at [docs/media/devpost/learnstep-demo.mp4](docs/media/devpost/learnstep-demo.mp4). A public video-platform URL has not been created.
-
 ## Run locally with Docker
 
 Prerequisites: Docker Desktop with the Linux engine running. Git is optional for local testing.
@@ -134,7 +132,6 @@ Evaluation regeneration commands are documented in [docs/evaluation.md](docs/eva
 
 ## Documentation
 
-- [Devpost submission story and field values](docs/devpost-submission.md)
 - [Architecture](docs/architecture.md)
 - [API](docs/api.md)
 - [Evaluation and failure boundaries](docs/evaluation.md)
